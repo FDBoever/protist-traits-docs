@@ -1,9 +1,10 @@
 site_name: kmer-ord
 site_description: Read-level k-mer ordination for pre-assembly genome deconvolution
-site_url: https://<username>.github.io/kmer-ord-docs/
+site_author: Frederik Deboever
+site_url: http://127.0.0.1:8000/
 
-repo_name: kmer-ord
-repo_url: https://github.com/<username>/kmer-ord
+repo_name: FDBoever/kmer-ord
+repo_url: https://github.com/FDBoever/kmer-ord
 edit_uri: edit/main/docs/
 
 theme:
@@ -12,49 +13,32 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.indexes
-    - toc.integrate
+    - navigation.top
     - content.code.copy
-    - content.tabs.link
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: teal
-  font:
-    text: Inter
-    code: JetBrains Mono
 
 nav:
   - Home: index.md
-  - Getting started:
-      - Installation: installation.md
-      - Quickstart: quickstart.md
+  - Installation: installation.md
+  - Quickstart: quickstart.md
+
   - Concepts:
-      - Overview: concepts/overview.md
-      - k-mer ordination: concepts/kmer_ordination.md
-      - Global vs local structure: concepts/global_vs_local.md
+      - Overview: concept.md
+      - K-mer manifolds: concepts/kmer_manifolds.md
+      - Bin-then-assemble: concepts/bin_then_assemble.md
+
   - Tutorials:
-      - Synthetic datasets: tutorials/synthetic.md
-      - Multi-eukaryote samples: tutorials/multieuk.md
-      - Interactive binning: tutorials/browser.md
-  - Reference:
-      - CLI: reference/cli.md
-      - Parameters: reference/parameters.md
-  - About:
-      - Citation: citation.md
-      - License: license.md
+      - Tutorials overview: tutorials.md
+
+  - Figures:
+      - Figures overview: figures/index.md
 
 markdown_extensions:
-  - admonition
-  - footnotes
-  - attr_list
-  - tables
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.highlight
   - pymdownx.details
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.tabbed
+  - pymdownx.arithmatex
+  - admonition
 
 plugins:
   - search
