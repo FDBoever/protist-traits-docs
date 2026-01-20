@@ -1,22 +1,33 @@
-# start
+# k-mer ordination (kmer-ord)
 
-!!! info "pre-release note 1"
+This documentation describes a toolkit for computing, normalising, and ordinating k-mer count data for exploratory analysis of long-read sequencing datasets or assembled contigs.
 
-    testing prereleasenoting as admonitions as part of mkdocs
+The workflow consists of:
 
-??? info "pre-release note 2"
+- Generating k-mer count matrices
+- Applying appropriate normalisation for compositional data
+- Performing dimensionality reduction
+- Inspecting embeddings structure and binning
 
-    testing prereleasenoting as admonitions as part of mkdocs
-    
+## Documentation structure
 
+### Getting started
+[Installation](./installation.md) - to install dependencies and set up environment
+[Quickstart](./quickstart.md) minimal end-to-end example from sequence data to ordination
 
+### Tutorials
 
-```py title="add_numbers.py" linenums="1"
-# Function to add two numbers
-def add_two_numbers(num1, num2):
-    return num1 + num2
+Practical guides for common workflows and analyses
 
-# Example usage
-result = add_two_numbers(5, 3)
-print('The sum is:', result)
-```
+### Reference
+
+Complete command-line and parameter documentation for each script
+
+### Concepts
+
+Background material explaiing why certain steps are required and how to interpret results.
+
+### Glossary and FAQ
+
+- Glossary: Definitions of frequently used terms and abreviations.
+- FAQ: Common questions and troubleshooting tips.

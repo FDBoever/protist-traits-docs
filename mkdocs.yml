@@ -10,7 +10,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   font:
-    text: Merriweather Sans
+    text: Roboto
     code: Red hat Mono
   logo: assets/overview.png
   favicon: assets/favicon.ico
@@ -27,14 +27,14 @@ theme:
     toggle:
       icon: material/weather-sunny
       name: Dark mode
-    primary: green
+    primary: black
     accent: deep purple
   #light mode
   - scheme: default
     toggle:
       icon: material/weather-night
       name: Light mode
-    primary: green
+    primary: black
     accent: deep organe
 
 nav:
@@ -42,16 +42,22 @@ nav:
   - Installation: installation.md
   - Quickstart: quickstart.md
 
-  - Concepts:
-      - Overview: concept.md
-      - K-mer manifolds: concepts/kmer_manifolds.md
-      - Bin-then-assemble: concepts/bin_then_assemble.md
-
   - Tutorials:
-      - Tutorials overview: tutorials.md
+      - Tutorials overview: tutorials/index.md
+      - Basic usage: tutorials/basic_usage.md
+      - Advanced usage: tutorials/advanced_usage.md
+  
+  - Reference:
+      - Reference overview: reference/index.md
+      - k-mer counting: reference/kmer_counting.md
+      - k-mer ordination: reference/kmer_ord.md
 
-  - Figures:
-      - Figures overview: figures/index.md
+  - Concepts:
+      - Concepts overview: concepts/index.md
+      - K-mer counting: concepts/kmer_counting.md
+      - Compositional data: concepts/compositional_data.md
+      - Dimensionality reduction: concepts/dimensionality_reduction.md
+      - Parameter screening: concepts/parameter_screening.md
 
 markdown_extensions:
   - pymdownx.superfences
