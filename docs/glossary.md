@@ -1,3 +1,0 @@
-# Glossary
-
-placeholder for glossary
