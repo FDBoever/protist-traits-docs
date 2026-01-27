@@ -101,7 +101,7 @@ Both tables were ingested to enable explicit linkage between trait assertions an
 * Trait domains: trophic mode, feeding strategy, morphology, locomotion, size, habitat, life history
 * Data format: Excel workbook with multiple sheets
 
-Two sheets were ingested:
+Two sheets were used:
 
 * the complete trait dataset,
 * the reference table documenting literature sources for trait assignments.
@@ -126,6 +126,16 @@ For Step 1, only **host-related trait columns** were retained. Occurrence data a
 * Focus: protist–protist and protist–bacteria interactions
 
 Only host-side trait and taxonomic information was retained. Prey taxonomy columns were removed to maintain consistency with a host-centric trait framework.
+
+---
+
+### Põlme et al. (2020) — FungalTraits Database
+
+* Reference: Põlme et al. 2020, Fungal diveristy (DOI: 10.1007/s13225-020-00466-2)
+* Database: FungalTraits (Google Sheets)
+* Taxonomic scope: Fungi and fungus-like Stramenopiles
+
+This dataset provides a comprehensive, genus-level compilation of ecological and functional traits for fungi, including lifestyle classifications (e.g. saprotrophic, symbiotic, pathogenic), morpho-anatomical features, substrate associations, and ectomycorrhizal characteristics.
 
 ---
 
