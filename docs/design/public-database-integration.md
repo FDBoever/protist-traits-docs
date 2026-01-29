@@ -30,8 +30,8 @@ We specifically separate **structural standardisation** and **semantic harmonisa
 
 Two recent syntheses provide the conceptual backdrop for this workflow:
 
-* **Burki et al. (2021)** — *Diversity and ecology of protists revealed by metabarcoding* (Current Biology, DOI: 10.1016/j.cub.2021.07.066)
 * **Jamy et al. (2025)** — *Towards a trait-based framework for protist ecology and evolution* (Trends in Microbiology, DOI: 10.1016/j.tim.2025.08.008)
+* **Burki et al. (2021)** — *Diversity and ecology of protists revealed by metabarcoding* (Current Biology, DOI: 10.1016/j.cub.2021.07.066)
 
 Both highlight that trait-based protist ecology is currently limited not by lack of data, but by inconsistent trait definitions, scattered data sources, and missing integrative frameworks.
 
@@ -136,6 +136,16 @@ Only host-side trait and taxonomic information was retained. Prey taxonomy colum
 * Taxonomic scope: Fungi and fungus-like Stramenopiles
 
 This dataset provides a comprehensive, genus-level compilation of ecological and functional traits for fungi, including lifestyle classifications (e.g. saprotrophic, symbiotic, pathogenic), morpho-anatomical features, substrate associations, and ectomycorrhizal characteristics.
+
+---
+
+### Lentendu et al. (2026) — EukFunc: A Holistic Eukaryotic Functional Reference for Automated Profiling of Soil Eukaryotes
+
+* Reference: Lentendu et al. 2025 (DOI: 10.1111/1755-0998.14118)
+* Database: EukFunc (Zenodo: https://zenodo.org/records/15243078, GitHub: https://github.com/lentendu/EukFunc)
+* Taxonomic scope: Fungi, nematodes and protists from soil
+
+This dataset provides comprehensive functional classes and aims to combine functional information across the entire soil eukaryome as compared to focusing on fungi, protists or nematodes individually.
 
 ---
 
