@@ -139,7 +139,7 @@ This dataset provides a comprehensive, genus-level compilation of ecological and
 
 ---
 
-### Lentendu et al. (2026) — EukFunc: A Holistic Eukaryotic Functional Reference for Automated Profiling of Soil Eukaryotes
+### Lentendu et al. (2025) — EukFunc: A Holistic Eukaryotic Functional Reference for Automated Profiling of Soil Eukaryotes
 
 * Reference: Lentendu et al. 2025 (DOI: 10.1111/1755-0998.14118)
 * Database: EukFunc (Zenodo: https://zenodo.org/records/15243078, GitHub: https://github.com/lentendu/EukFunc)
