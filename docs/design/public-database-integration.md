@@ -28,8 +28,6 @@ We specifically separate **structural standardisation** and **semantic harmonisa
 
 ## Conceptual Motivation and Literature Context
 
-Two recent syntheses provide the conceptual backdrop for this workflow:
-
 * **Jamy et al. (2025)** — *Towards a trait-based framework for protist ecology and evolution* (Trends in Microbiology, DOI: 10.1016/j.tim.2025.08.008)
 * **Burki et al. (2021)** — *Diversity and ecology of protists revealed by metabarcoding* (Current Biology, DOI: 10.1016/j.cub.2021.07.066)
 
@@ -146,6 +144,34 @@ This dataset provides a comprehensive, genus-level compilation of ecological and
 * Taxonomic scope: Fungi, nematodes and protists from soil
 
 This dataset provides comprehensive functional classes and aims to combine functional information across the entire soil eukaryome as compared to focusing on fungi, protists or nematodes individually.
+
+---
+
+
+### Rimet et al. (2018) — Trait Database for Phytoplankton of Temperate Lakes
+
+* Reference: Rimet et al. 2018, Annales de Limnologie – International Journal of Limnology (DOI: 10.1051/limn/2018009)
+* Data repository: (Zenodo: https://zenodo.org/records/1164834)
+* Taxonomic scope: Freshwater phytoplankton (primarily algae) from temperate lakes
+* Taxonomic backbone: Expert-curated taxonomy, largely consistent with contemporary algal systematics
+* Trait domains: morphology, size, life form, colony formation, motility, ecological strategy
+* Data format: CSV (open access)
+
+This database represents a long-term, expert-maintained compilation of phytoplankton functional traits, originally developed for ecological assessment and bioindication in temperate lake ecosystems. Trait definitions are largely categorical and morpho-functional, reflecting classical phytoplankton functional ecology.
+
+---
+
+### Laplace-Treyture et al. (2021) — Phytoplankton Morpho-Functional Trait Dataset from French Water Bodies
+
+Reference: Laplace-Treyture et al. 2021, Scientific Data (DOI: 10.1038/s41597-021-00814-0)
+
+* Data file: FRENCH_PHYTOPLANKTON_TRAITS.csv (DOI: [10.15454/GJGIAH](https://doi.org/10.6084/m9.figshare.13416659))
+* Taxonomic scope: Freshwater phytoplankton from French rivers, lakes, and reservoirs
+* Taxonomic backbone: AlgaeBase
+* Trait domains: morphology, size, motility, colony formation, ecological strategy
+* Data format: CSV
+
+This dataset provides a harmonized morpho-functional trait table for phytoplankton taxa occurring in French water bodies, with taxonomy explicitly aligned to AlgaeBase. Traits are predominantly categorical and focus on structural and ecological characteristics commonly used in biomonitoring and functional classification schemes.
 
 ---
 
