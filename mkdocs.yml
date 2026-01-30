@@ -43,7 +43,7 @@ nav:
 
   - Principles:
       - Principles overview: principles/overview.md
-      - Guiding principles: principles/guiding _principles.md
+      - Guiding principles: principles/guiding_principles.md
       - Assertions: principles/assertions.md
       - Features and Traits: principles/features_and_traits.md
       - Taxa, materials and sources: principles/taxa_material_source.md
