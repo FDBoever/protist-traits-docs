@@ -51,7 +51,7 @@ Trait databases were included based on the following criteria:
 
 ### Dumack et al. (2019) — Cercozoa and Endomyxa
 
-* Reference: Dumack et al. 2019, *Molecular Ecology* (DOI: 10.1111/1755-0998.13112)
+* Reference: Dumack et al. 2019, *Molecular Ecology* (DOI: [10.1111/1755-0998.13112](https://doi.org/ 10.1111/1755-0998.13112))
 * Taxonomic scope: Cercozoa and Endomyxa
 * Trait domains: nutrition, morphology, locomotion, habitat, size
 * Data format: tab-delimited text
@@ -60,10 +60,11 @@ This dataset was ingested using `read.delim()` and served as a core reference fo
 
 ---
 
-### Freundenthal et al. (2026) — Amoebozoa Trait Database
+### Freundenthal et al. (2025) — Amoebozoa Trait Database
 
+* Reference: Freundenthal et al. (2025), Molecular Ecology Resources  (DOI: [10.1111/1755-0998.70064](https://doi.org/10.1111/1755-0998.70064))
 * Source: Dumack laboratory
-* Repository: GitHub (FunctionalTraitsAmoebozoa)
+* Repository: GitHub (FunctionalTraitsAmoebozoa) Github ([https://github.com/JFreude/FunctionalTraitsAmoebozoa](https://github.com/JFreude/FunctionalTraitsAmoebozoa)) and Zenodo (DOI: [https://doi.org/10.5281/zenodo.15091355](https://doi.org/10.5281/zenodo.15091355))
 * Taxonomic scope: Amoebozoa
 * Trait domains: nutrition, morphology, morphotype, locomotion, size, habitat, life history
 * Data format: tab-delimited text
@@ -74,7 +75,7 @@ This dataset complements Dumack et al. (2019) by extending trait coverage to Amo
 
 ### Ramond et al. (2018, 2019) — Marine Protist Functional Traits
 
-* Reference: Ramond et al. 2019, *Environmental Microbiology* (DOI: 10.1111/1462-2920.14537)
+* Reference: Ramond et al. 2019, *Environmental Microbiology* (DOI: [10.1111/1462-2920.14537](https://doi.org/10.1111/1462-2920.14537))
 * Data repository: SEANOE (dataset 56963)
 * Trait domains: morphology, trophic strategy, habitat, life history
 * Data format: semicolon-separated CSV
@@ -85,7 +86,7 @@ Traits in this dataset were manually curated from the literature, resulting in h
 
 ### Schneider et al. (2020) — Trophic Modes of Aquatic Protists
 
-* Reference: Schneider et al. 2020, *Biodiversity Data Journal* (DOI: 10.3897/BDJ.8.e56648)
+* Reference: Schneider et al. 2020, *Biodiversity Data Journal* (DOI: [10.3897/BDJ.8.e56648](https://doi.org/10.3897/BDJ.8.e56648))
 * Focus: trophic mode classification, including mixotrophy
 * Structure: main trait table plus a separate citation table
 
@@ -95,7 +96,7 @@ Both tables were ingested to enable explicit linkage between trait assertions an
 
 ### Giachello et al. (2023) — Functional Traits of Soil Protists
 
-* Reference: Giachello et al. 2023, *Soil Biology & Biochemistry* (DOI: 10.1016/j.soilbio.2023.109207)
+* Reference: Giachello et al. 2023, *Soil Biology & Biochemistry* (DOI: [10.1016/j.soilbio.2023.109207](https://doi.org/10.1016/j.soilbio.2023.109207))
 * Trait domains: trophic mode, feeding strategy, morphology, locomotion, size, habitat, life history
 * Data format: Excel workbook with multiple sheets
 
@@ -108,7 +109,7 @@ Two sheets were used:
 
 ### Mitra et al. (2023) — The Mixoplankton Database (MDB)
 
-* Reference: Mitra et al. 2023, *Journal of Eukaryotic Microbiology* (DOI: 10.1111/jeu.12972)
+* Reference: Mitra et al. 2023, *Journal of Eukaryotic Microbiology* (DOI: [10.1111/jeu.12972](https://doi.org/10.1111/jeu.12972))
 * Database: Zenodo record 7839780
 * Scope: photo-phago-trophic plankton across the global ocean
 * Data format: Excel workbook
@@ -129,7 +130,7 @@ Only host-side trait and taxonomic information was retained. Prey taxonomy colum
 
 ### Põlme et al. (2020) — FungalTraits Database
 
-* Reference: Põlme et al. 2020, Fungal diveristy (DOI: 10.1007/s13225-020-00466-2)
+* Reference: Põlme et al. 2020, Fungal diveristy (DOI: [10.1007/s13225-020-00466-2](https://doi.org/10.1007/s13225-020-00466-2))
 * Database: FungalTraits (Google Sheets)
 * Taxonomic scope: Fungi and fungus-like Stramenopiles
 
@@ -139,8 +140,8 @@ This dataset provides a comprehensive, genus-level compilation of ecological and
 
 ### Lentendu et al. (2025) — EukFunc: A Holistic Eukaryotic Functional Reference for Automated Profiling of Soil Eukaryotes
 
-* Reference: Lentendu et al. 2025 (DOI: 10.1111/1755-0998.14118)
-* Database: EukFunc (Zenodo: https://zenodo.org/records/15243078, GitHub: https://github.com/lentendu/EukFunc)
+* Reference: Lentendu et al. 2025 (DOI: [10.1111/1755-0998.14118](https://doi.org/10.1111/1755-0998.14118))
+* Database: EukFunc (Zenodo: [https://zenodo.org/records/15243078](https://zenodo.org/records/15243078), GitHub: [https://github.com/lentendu/EukFunc](https://github.com/lentendu/EukFunc))
 * Taxonomic scope: Fungi, nematodes and protists from soil
 
 This dataset provides comprehensive functional classes and aims to combine functional information across the entire soil eukaryome as compared to focusing on fungi, protists or nematodes individually.
@@ -152,8 +153,8 @@ despite enourmous taxonomic coverage, there are very little references that coup
 
 ### Rimet et al. (2018) — Trait Database for Phytoplankton of Temperate Lakes
 
-* Reference: Rimet et al. 2018, Annales de Limnologie – International Journal of Limnology (DOI: 10.1051/limn/2018009)
-* Data repository: (Zenodo: https://zenodo.org/records/1164834)
+* Reference: Rimet et al. 2018, Annales de Limnologie – International Journal of Limnology (DOI: [10.1051/limn/2018009](https://doi.org/10.1051/limn/20180090))
+* Data repository: (Zenodo: [https://zenodo.org/records/1164834](https://zenodo.org/records/1164834))
 * Taxonomic scope: Freshwater phytoplankton (primarily algae) from temperate lakes
 * Taxonomic backbone: Expert-curated taxonomy, largely consistent with contemporary algal systematics
 * Trait domains: morphology, size, life form, colony formation, motility, ecological strategy
@@ -165,7 +166,7 @@ This database represents a long-term, expert-maintained compilation of phytoplan
 
 ### Laplace-Treyture et al. (2021) — Phytoplankton Morpho-Functional Trait Dataset from French Water Bodies
 
-Reference: Laplace-Treyture et al. 2021, Scientific Data (DOI: 10.1038/s41597-021-00814-0)
+Reference: Laplace-Treyture et al. 2021, Scientific Data (DOI: [10.1038/s41597-021-00814-0](https://doi.org/10.1038/s41597-021-00814-0))
 
 * Data file: FRENCH_PHYTOPLANKTON_TRAITS.csv (DOI: [10.15454/GJGIAH](https://doi.org/10.6084/m9.figshare.13416659))
 * Taxonomic scope: Freshwater phytoplankton from French rivers, lakes, and reservoirs
