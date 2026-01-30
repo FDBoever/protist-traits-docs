@@ -145,7 +145,7 @@ This dataset provides a comprehensive, genus-level compilation of ecological and
 
 This dataset provides comprehensive functional classes and aims to combine functional information across the entire soil eukaryome as compared to focusing on fungi, protists or nematodes individually.
 
-despite enourmous taxonomic coverage, there are very little references that couple the assertions directly to publication sources, making it a little bit troublesome for our framework.
+despite enourmous taxonomic coverage, there are very little references that couple the assertions directly to publication sources, making it a little bit troublesome for our framework. exploration of what could be mined is still ongoing.
 
 ---
 
