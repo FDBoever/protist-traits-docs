@@ -47,12 +47,13 @@ nav:
       - Features and Traits: principles/features_and_traits.md
       - Taxa, materials and sources: principles/taxa_material_source.md
       - Qualifiers: principles/qualifiers.md
-      - Taxa vs materials: principles/taxa_vs_materials.md
+      - Taxa vs materials: principles/taxa_vs_material.md
       - Assertions to synthesis: principles/assertions2synthesis.md
 
   - Ontology:
-      - Ontology overview: ontology/ontology_overview.md
-      - Ecology Ontoloty (ECO): ontology/ecology_ontology.md
+      - Ontology overview: ontology/overview.md
+      - Morphology Ontology: ontology/morphology_ontology.md
+      - Ecology Ontoloty: ontology/ecology_ontology.md
 
   - Design:
       - Design overview: design/index.md
