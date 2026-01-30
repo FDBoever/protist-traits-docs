@@ -39,7 +39,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Quickstart: quickstart.md
 
   - Principles:
       - Principles overview: principles/overview.md
