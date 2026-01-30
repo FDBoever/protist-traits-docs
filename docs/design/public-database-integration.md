@@ -51,7 +51,8 @@ Trait databases were included based on the following criteria:
 
 ### Dumack et al. (2019) — Cercozoa and Endomyxa
 
-* Reference: Dumack et al. 2019, *Molecular Ecology* (DOI: [10.1111/1755-0998.13112](https://doi.org/ 10.1111/1755-0998.13112))
+* Reference: Dumack et al. 2019, *Molecular Ecology Resources* (DOI: [10.1111/1755-0998.13112](https://doi.org/ 10.1111/1755-0998.13112))
+* Repository: GitHub [Kenneth-Dumack/Functional-Traits-Cercozoa-Endomyxa](https://github.com/Kenneth-Dumack/Functional-Traits-Cercozoa-Endomyxa)
 * Taxonomic scope: Cercozoa and Endomyxa
 * Trait domains: nutrition, morphology, locomotion, habitat, size
 * Data format: tab-delimited text
@@ -118,11 +119,13 @@ For Step 1, only **host-related trait columns** were retained. Occurrence data a
 
 ---
 
-### Bjørbækmo et al. (2019) — Protist Interaction Database (PIDA)
+### Bjørbækmo et al. (2019) — Protist Interaction DAtabase (PIDA)
 
-* Database: MicroEcoSystems Interaction Database v1.0.8
-* Repository: Zenodo record 1195514
+* Reference: Bjørbækmo et al. (2019) ISMEj (DOI: [10.1038/s41396-019-0542-5](https://doi.org/10.1038/s41396-019-0542-5))
+* Repository: Zenodo [https://zenodo.org/records/1195514](https://zenodo.org/records/1195514)
 * Focus: protist–protist and protist–bacteria interactions
+
+Authors examined the available scientific literature spanning the last ~150 years, and recorded ~2500 ecological interactions from ~500 publications going back to the late 1800s.
 
 Only host-side trait and taxonomic information was retained. Prey taxonomy columns were removed to maintain consistency with a host-centric trait framework.
 
