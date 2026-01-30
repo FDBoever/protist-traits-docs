@@ -45,9 +45,9 @@ nav:
       - Ontology overview: ontology/ontology_overview.md
       - Ecology Ontoloty (ECO): ontology/ecology_ontology.md
 
-  
   - Design:
       - Design overview: design/index.md
+      - Public databases: design/public-databas.md
       - Public database integration: design/public-database-integration.md
 
 markdown_extensions:
