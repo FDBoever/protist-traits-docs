@@ -41,13 +41,23 @@ nav:
   - Home: index.md
   - Quickstart: quickstart.md
 
+  - Principles:
+      - Principles overview: principles/overview.md
+      - Guiding principles: principles/guiding _principles.md
+      - Assertions: principles/assertions.md
+      - Features and Traits: principles/features_and_traits.md
+      - Taxa, materials and sources: principles/taxa_material_source.md
+      - Qualifiers: principles/qualifiers.md
+      - Taxa vs materials: principles/taxa_vs_materials.md
+      - Assertions to synthesis: principles/assertions2synthesis.md
+
   - Ontology:
       - Ontology overview: ontology/ontology_overview.md
       - Ecology Ontoloty (ECO): ontology/ecology_ontology.md
 
   - Design:
       - Design overview: design/index.md
-      - Public databases: design/public-databas.md
+      - Public databases: design/public-databases.md
       - Public database integration: design/public-database-integration.md
 
 markdown_extensions:
