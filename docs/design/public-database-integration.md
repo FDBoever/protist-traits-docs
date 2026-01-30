@@ -49,6 +49,23 @@ Trait databases were included based on the following criteria:
 
 ## Currently included Databases
 
+### Overview table
+
+| Dataset / Reference | Taxonomic Scope | Trait Domains | Data Format | Repository / DOI |
+|--------------------|----------------|---------------|------------|----------------|
+| Dumack et al. (2019) — Cercozoa and Endomyxa | Cercozoa and Endomyxa | nutrition, morphology, locomotion, habitat, size | tab-delimited text | [GitHub](https://github.com/Kenneth-Dumack/Functional-Traits-Cercozoa-Endomyxa), DOI: [10.1111/1755-0998.13112](https://doi.org/10.1111/1755-0998.13112) |
+| Freundenthal et al. (2025) — Amoebozoa Trait Database | Amoebozoa | nutrition, morphology, morphotype, locomotion, size, habitat, life history | tab-delimited text | [GitHub](https://github.com/JFreude/FunctionalTraitsAmoebozoa), [Zenodo](https://doi.org/10.5281/zenodo.15091355), DOI: [10.1111/1755-0998.70064](https://doi.org/10.1111/1755-0998.70064) |
+| Ramond et al. (2018, 2019) — Marine Protist Functional Traits | Marine protists | morphology, trophic strategy, habitat, life history | semicolon-separated CSV | SEANOE dataset 56963, DOI: [10.1111/1462-2920.14537](https://doi.org/10.1111/1462-2920.14537) |
+| Schneider et al. (2020) — Trophic Modes of Aquatic Protists | Protists | trophic mode, mixotrophy | main + citation tables | DOI: [10.3897/BDJ.8.e56648](https://doi.org/10.3897/BDJ.8.e56648) |
+| Giachello et al. (2023) — Functional Traits of Soil Protists | Soil protists | trophic mode, feeding strategy, morphology, locomotion, size, habitat, life history | Excel workbook | DOI: [10.1016/j.soilbio.2023.109207](https://doi.org/10.1016/j.soilbio.2023.109207) |
+| Mitra et al. (2023) — The Mixoplankton Database (MDB) | Photo-phago-trophic plankton | host-related traits only | Excel workbook | Zenodo 7839780, DOI: [10.1111/jeu.12972](https://doi.org/10.1111/jeu.12972) |
+| Bjørbækmo et al. (2019) — Protist Interaction Database (PIDA) | Protists | host traits | CSV | Zenodo [1195514](https://zenodo.org/records/1195514), DOI: [10.1038/s41396-019-0542-5](https://doi.org/10.1038/s41396-019-0542-5) |
+| Põlme et al. (2020) — FungalTraits Database | Fungi, fungus-like Stramenopiles | ecological and functional traits | Google Sheets | DOI: [10.1007/s13225-020-00466-2](https://doi.org/10.1007/s13225-020-00466-2) |
+| Lentendu et al. (2025) — EukFunc | Fungi, nematodes, protists (soil) | functional classes | Zenodo / GitHub | [Zenodo](https://zenodo.org/records/15243078), [GitHub](https://github.com/lentendu/EukFunc), DOI: [10.1111/1755-0998.14118](https://doi.org/10.1111/1755-0998.14118) |
+| Rimet et al. (2018) — Phytoplankton Trait Database | Freshwater phytoplankton | morphology, size, life form, colony formation, motility, ecological strategy | CSV | [Zenodo](https://zenodo.org/records/1164834), DOI: [10.1051/limn/20180090](https://doi.org/10.1051/limn/20180090) |
+| Laplace-Treyture et al. (2021) — French Phytoplankton Traits | Freshwater phytoplankton | morphology, size, motility, colony formation, ecological strategy | CSV | DOI: [10.1038/s41597-021-00814-0](https://doi.org/10.1038/s41597-021-00814-0), [Figshare](https://doi.org/10.6084/m9.figshare.13416659) |
+
+
 ### Dumack et al. (2019) — Cercozoa and Endomyxa
 
 * Reference: Dumack et al. 2019, *Molecular Ecology Resources* (DOI: [10.1111/1755-0998.13112](https://doi.org/ 10.1111/1755-0998.13112))
