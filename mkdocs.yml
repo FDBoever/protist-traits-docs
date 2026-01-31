@@ -53,12 +53,15 @@ nav:
   - Ontology:
       - Ontology overview: ontology/overview.md
       - Morphology Ontology: ontology/morphology_ontology.md
+      - Nutrition ontology: ontology/nutrition_ontology.md
       - Ecology Ontoloty: ontology/ecology_ontology.md
 
   - Design:
-      - Design overview: design/index.md
+      - Design overview: design/overview.md
+      - Database integration: design/database_integration.md
       - Public databases: design/public-databases.md
       - Public database integration: design/public-database-integration.md
+      - Literature-based ontology design: design/morphology_terminology.md
 
 markdown_extensions:
   - pymdownx.superfences

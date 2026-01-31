@@ -61,9 +61,8 @@ Morphological traits can be:
 - **Categorical** — shape, type, composition
 - **Integer** — counts of structures
 
-### Examples of morphological traits
-
 ```yaml
+### Examples of morphological traits
     - trait_id: presence
       label: Presence
       value_type: boolean
