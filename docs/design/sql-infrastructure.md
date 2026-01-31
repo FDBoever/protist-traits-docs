@@ -23,18 +23,18 @@ In short, SQL supports storage, indexing, and querying, but the **design preserv
 ## Design Principles
 
 1. **Tables first, but not purely tabular**  
-   - Taxonomy, sources, and specimens are naturally tabular.  
-   - Traits and qualifiers are stored in JSON fields to accommodate flexible, context-dependent observations.
+  - Taxonomy, sources, and specimens are naturally tabular.  
+  - Traits and qualifiers are stored in JSON fields to accommodate flexible, context-dependent observations.
 
 2. **Every observation is linked**  
-   - `assertions` connect taxa, sources, and materials.  
-   - `domain` allows filtering by ontology (morphology, nutrition, ecology, etc.).  
-   - JSON ensures flexibility for unusual or new traits without changing the schema.
+  - `assertions` connect taxa, sources, and materials.  
+  - `domain` allows filtering by ontology (morphology, nutrition, ecology, etc.).  
+  - JSON ensures flexibility for unusual or new traits without changing the schema.
 
 3. **Versioning and maintenance**  
-   - Timestamps `created_at` and `updated_at` track changes.  
-   - Foreign keys maintain relational integrity, but JSON allows evolving content.  
-   - Database can be rebuilt or migrated via `build_db.py`, preserving internal IDs.
+  - Timestamps `created_at` and `updated_at` track changes.  
+  - Foreign keys maintain relational integrity, but JSON allows evolving content.  
+  - Database can be rebuilt or migrated via `build_db.py`, preserving internal IDs.
 
 ---
 
@@ -48,6 +48,7 @@ A morphological measurement:
 - `trait`: length  
 - `value`: {"mean":6.8,"min":5.2,"max":8.7,"unit":"µm"}  
 - `qualifiers`: {"life_stage":["active"],"evidence":["light_microscopy"]}
+
 
 > Numeric ranges and categorical descriptors are preserved, along with context for life stage, method, or experimental conditions.
 
