@@ -58,6 +58,7 @@ nav:
 
   - Design:
       - Design overview: design/overview.md
+      - sqlite database schema: design/sql-infrastructure.md
       - Database integration: design/database_integration.md
       - Public databases: design/public-databases.md
       - Public database integration: design/public-database-integration.md
