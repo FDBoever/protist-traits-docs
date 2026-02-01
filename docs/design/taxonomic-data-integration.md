@@ -24,6 +24,13 @@ curl -o downloaded_datafiles/gbif/backbone.zip https://hosted-datasets.gbif.org/
 unzip downloaded_datafiles/gbif/backbone.zip -d downloaded_datafiles/gbif/
 ```
 
+data extraction is currently implemented in `./scripts/scripts/extracextract_from_gbif_backbone.py`
+
+```sh
+python scripts/extract_from_gbif_backbone.py
+```
+
+
 ## IRMNG - Interim Register of Marine and Nonmarine Genera
 
 https://www.irmng.org/
@@ -36,6 +43,14 @@ zip file contains taxon.txt and reference.txt
 within taxon.txt, column "kingdom" (11th column) was used to filter taxa records that are putative protists "Chromista|Protozoa|Protista" 
 The retrieved TaxonIDs are used to filter the reference.txt to only include references to the filtered taxon set.
 
+
+currently implemented in `./scripts/scripts/extract_from_irmng.py`
+
+```sh
+python scripts/extract_from_irmng.py
+```
+
+the below bash code reflects how we used to do it in the past
 
 ```sh
 # obtain data release
