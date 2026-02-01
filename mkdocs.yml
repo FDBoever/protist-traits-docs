@@ -62,6 +62,7 @@ nav:
       - Database integration: design/database_integration.md
       - Public databases: design/public-databases.md
       - Public database integration: design/public-database-integration.md
+      - Taxonomic data integration: design/taxonomic-data-integration.md
       - Literature-based ontology design: design/morphology_terminology.md
 
 markdown_extensions:
