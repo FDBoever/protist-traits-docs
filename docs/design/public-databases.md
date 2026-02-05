@@ -11,7 +11,7 @@ Please reach out if we are missing relevant databases or other data sources
 Since version 5.1.0 PR2 introduced the following:
     mixoplankton species (already available in release 5.0)
     HAB (Harmful Algal Bloom) species - from https://www.marinespecies.org/hab/index.php
-    ecological function - from Sommeria-Klein et al. 2021 (Global drivers of eukaryotic plankton biogeography in the sunlit ocean)
+    ecological function - from Sommeria-Klein et al. 2021 (Global drivers of eukaryotic plankton biogeography in the sunlit ocean) - see Table S1 from the paper.
 
 
 ## Dumack et al. (2019) — Cercozoa and Endomyxa

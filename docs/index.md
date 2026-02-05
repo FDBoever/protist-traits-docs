@@ -4,6 +4,8 @@ The project and documentation are still under development, bare with us
 
 ==}
 
+![draft_logo](./assets/euktraitlogo3-small.png)
+
 # EukTrait
 
 EukTrait is a framework for capturing and organising trait information in microbial eukaryotes. It is built around the simple idea that every statement about a trait — an *assertion* — should be traceable to a taxon, a source, and a biological context.
