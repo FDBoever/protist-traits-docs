@@ -64,6 +64,7 @@ nav:
       - Public database integration: design/public-database-integration.md
       - Taxonomic data integration: design/taxonomic-data-integration.md
       - Literature-based ontology design: design/morphology_terminology.md
+      - API guided description literature mining: design/API-guided-literature-searches.md
 
 markdown_extensions:
   - pymdownx.superfences
